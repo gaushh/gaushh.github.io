@@ -17,7 +17,16 @@ Mount the drive to the collaboratory.
 from google.colab import drive 
 drive.mount('/content/drive')
 ~~~
+This step lets the user read the files present in the mounted google drive and subsequenly write result files to the drive. After mounting, the drive home page can be treated as the root folder.
+For example, to read file "news.txt" present in "News_Files" folder in the drive the following code can be used.
+```
+with open("/content/drive/My Drive/News_Files/news.txt", "rb") as infile:
+  outfile.write(infile.read())
+```
 
+## Tip 2
+To start using the free GPU:
+> Menu bar --> Runtime --> Change Runtime Type --> GPU
 ![I and My friends]({{site.baseurl}}/assets/img/we-in-rest.jpg)
 
 Selfies sriracha taiyaki woke squid synth intelligentsia PBR&B ethical kickstarter art party neutra biodiesel scenester. Health goth kogi VHS fashion axe glossier disrupt, vegan quinoa. Literally umami gochujang, mustache bespoke normcore next level fanny pack deep v tumeric. Shaman vegan affogato chambray. Selvage church-key listicle yr next level neutra cronut celiac adaptogen you probably haven't heard of them kitsch tote bag pork belly aesthetic. Succulents wolf stumptown art party poutine. Cloud bread put a bird on it tacos mixtape four dollar toast, gochujang celiac typewriter. Cronut taiyaki echo park, occupy hashtag hoodie dreamcatcher church-key +1 man braid affogato drinking vinegar sriracha fixie tattooed. Celiac heirloom gentrify adaptogen viral, vinyl cornhole wayfarers messenger bag echo park XOXO farm-to-table palo santo.
