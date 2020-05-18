@@ -13,10 +13,10 @@ Google Colaboratory or simply "colab" is a Jupyter-esque environment which provi
 Now, I'm take you though a step by step approach to get started with training models in google colab.
 ### Step 1
 Mount the drive to the collaboratory.
-```
+~~~
 from google.colab import drive 
 drive.mount('/content/drive')
-```
+~~~
 
 ![I and My friends]({{site.baseurl}}/assets/img/we-in-rest.jpg)
 
