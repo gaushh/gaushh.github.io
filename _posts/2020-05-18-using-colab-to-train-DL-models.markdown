@@ -10,8 +10,7 @@ tags: [Colab, GPU,]
 Google Colaboratory or simply "colab" is a Jupyter-esque environment which provides a platform for writing and executing python code in browser. Colab notebook enviornment runs on cloud and the ipython notebooks are stored in google drive. The availablity of free GPU's and easy sharing is what really distinguishes any of its contemporaries.
 
 ## Starting with Google Colab
-Now, I'm take you though a step by step approach to get started with training models in google colab.
-### Step 1
+### Tip 1 : Connecting with Drive
 Mount the drive to the collaboratory.
 ~~~
 from google.colab import drive 
@@ -24,16 +23,25 @@ with open("/content/drive/My Drive/News_Files/news.txt", "rb") as infile:
   outfile.write(infile.read())
 ```
 
-## Tip 2
+### Tip 2 : Using free GPU
 To start using the free GPU:
 > Menu bar --> Runtime --> Change Runtime Type --> GPU
 ![I and My friends]({{site.baseurl}}/assets/img/change_runtime_type.jpg)
 
-It is important to keep in mind that Google provides limited use of free gpu service. So, use this option only when training and testing the models, not during production time. 
+It is important to keep in mind that Google provides limited use of free gpu service. So, use this option only when training and testing the models, not while writing code. 
 
-**Pro Tip -** Some of the models I've trained took significantly longer than than the upper limit of the capacity. I tend to save the checkpoints in the drive regularly (in pytorch using 'torch.save') after a particular number of iterations. After the capacity of the google account I'm using gets drained, I download the ipython notebook and reupload it to another colab account in incognito. Finally, mount it on the original drive account in which saved model was stored and load the saved checkpoint file. Thins will resume the training process from the checkpoint.  
+**Pro Tip -** Some of the models I've trained took significantly longer than than the upper limit of the capacity. I tend to save the checkpoints in the drive regularly (in pytorch using 'torch.save') after a particular number of iterations. After the capacity of the google account I'm using gets drained, I download the ipython notebook and reupload it to another colab account in incognito. Finally, mount it on the original drive account in which saved model was stored and load the saved checkpoint file. This will resume the training process from the checkpoint. All in all, you can use the GPU provided by colab forever given you have access to sufficient number of google accounts. 
 
-Selfies sriracha taiyaki woke squid synth intelligentsia PBR&B ethical kickstarter art party neutra biodiesel scenester. Health goth kogi VHS fashion axe glossier disrupt, vegan quinoa. Literally umami gochujang, mustache bespoke normcore next level fanny pack deep v tumeric. Shaman vegan affogato chambray. Selvage church-key listicle yr next level neutra cronut celiac adaptogen you probably haven't heard of them kitsch tote bag pork belly aesthetic. Succulents wolf stumptown art party poutine. Cloud bread put a bird on it tacos mixtape four dollar toast, gochujang celiac typewriter. Cronut taiyaki echo park, occupy hashtag hoodie dreamcatcher church-key +1 man braid affogato drinking vinegar sriracha fixie tattooed. Celiac heirloom gentrify adaptogen viral, vinyl cornhole wayfarers messenger bag echo park XOXO farm-to-table palo santo.
+### Tip 3 : Installing libraries/modules in colab
+All major libraries/modules like pytorch, tensorflow, fastai, opencv etc. are preinstalled in pytorch. If you wish to use a custom library which is not already there in colab or to use a different version of the preinstalled module, you can use !pip install or !apt-get install.
+
+~~~
+ !pip install -q matplotlib-venn 
+ !pip install tensorflow==1.12.0 
+~~~
+"!" prompts the notebook cell to treat the code as a command line script. 
+
+### Tip 4 : 
 
 >Hexagon shoreditch beard, man braid blue bottle green juice thundercats viral migas next level ugh. Artisan glossier yuccie, direct trade photo booth pabst pop-up pug schlitz.
 
