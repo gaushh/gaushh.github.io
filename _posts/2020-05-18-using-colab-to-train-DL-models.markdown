@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Colab for Deep Learning
+title: Using Colab for training Deep Learning Models
 date: 2020-05-18 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: colab_logo2.jpg # Add image post (optional)
@@ -56,5 +56,7 @@ The user can't go beyond the 25.51 GB RAM limit in a session, so there are a few
 * Divide the data to be trained upon into multiple files and upload just a single file at a time.
 > ![I and My friends]({{site.baseurl}}/assets/img/split_files.jpg)
 
-### Tip 5 : Sharing ipynb files.
-Colab provides easy sharing of files 
+### Tip 5 : Sharing ipynb files via colab.
+Colab provides easy sharing of files to others via email or via a sharable link,
+It even provides the functionality of pushing files to a github repository in just 1-2 clicks. 
+These options can come handy while working in a group project as the owner can manage who can view and edit the files.
