@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I Rest From Work
+title: Using Colab for Deep Learning
 date: 2020-05-18 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: colab_logo2.jpg # Add image post (optional)
@@ -27,7 +27,7 @@ with open("/content/drive/My Drive/News_Files/news.txt", "rb") as infile:
 ## Tip 2
 To start using the free GPU:
 > Menu bar --> Runtime --> Change Runtime Type --> GPU
-![I and My friends]({{site.baseurl}}/assets/img/we-in-rest.jpg)
+![I and My friends]({{site.baseurl}}/assets/img/change_runtime_type.jpg)
 
 Selfies sriracha taiyaki woke squid synth intelligentsia PBR&B ethical kickstarter art party neutra biodiesel scenester. Health goth kogi VHS fashion axe glossier disrupt, vegan quinoa. Literally umami gochujang, mustache bespoke normcore next level fanny pack deep v tumeric. Shaman vegan affogato chambray. Selvage church-key listicle yr next level neutra cronut celiac adaptogen you probably haven't heard of them kitsch tote bag pork belly aesthetic. Succulents wolf stumptown art party poutine. Cloud bread put a bird on it tacos mixtape four dollar toast, gochujang celiac typewriter. Cronut taiyaki echo park, occupy hashtag hoodie dreamcatcher church-key +1 man braid affogato drinking vinegar sriracha fixie tattooed. Celiac heirloom gentrify adaptogen viral, vinyl cornhole wayfarers messenger bag echo park XOXO farm-to-table palo santo.
 
