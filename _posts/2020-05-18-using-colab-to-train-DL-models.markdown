@@ -28,6 +28,7 @@ with open("/content/drive/My Drive/News_Files/news.txt", "rb") as infile:
 To start using the free GPU:
 > Menu bar --> Runtime --> Change Runtime Type --> GPU
 ![I and My friends]({{site.baseurl}}/assets/img/change_runtime_type.jpg)
+
 It is important to keep in mind that Google provides limited use of free gpu service. So, use this option only when training and testing the models, not during production time. 
 **Pro Tip -** Some of the models I've trained took significantly longer than than the upper limit of the capacity. I tend to save the checkpoints in the drive regularly (in pytorch using 'torch.save') after a particular number of iterations. After the capacity of the google account I'm using gets drained, I download the ipython notebook and reupload it to another colab account in incognito. Finally, mount it on the original drive account in which saved model was stored and load the saved checkpoint file. Thins will resume the training process from the checkpoint.  
 
