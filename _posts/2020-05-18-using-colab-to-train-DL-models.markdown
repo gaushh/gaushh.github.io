@@ -54,7 +54,7 @@ The user can't go beyond the 25.51 GB RAM limit in a session, so there are a few
 * Choose memory efficient options while processing and storing data. eg. Using tuples instead of lists to store data.
 * Delete temporary variables.
 * Divide the data to be trained upon into multiple files and upload just a single file at a time.
-![I and My friends]({{site.baseurl}}/assets/img/split_files.jpg)
+> ![I and My friends]({{site.baseurl}}/assets/img/split_files.jpg)
 
 ### Tip 5 : Sharing ipynb files.
 Colab provides easy sharing of files 
