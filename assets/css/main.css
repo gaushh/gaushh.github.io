@@ -977,9 +977,9 @@ a.myButton {
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Verdana;
-	font-size:23px;
+	font-size:13px;
 	font-weight:bold;
-	padding:5px 30px;
+	padding:7px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #3d768a; 
 }
