@@ -992,6 +992,9 @@ a.myButton:active {
 	position:relative;
 	top:1px;
 }
+a.space {
+    margin-bottom:15px;
+}
 
 .about .author-name {
   font-family: 'PT Serif', serif;
