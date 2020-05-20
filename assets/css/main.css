@@ -968,7 +968,7 @@ table tfoot td {
           transform: scale3d(0.9, 0.9, 1);
 }
 
-a.myButton {
+a.myButton1 {
 	box-shadow: 0px 7px 14px -7px #276873;
 	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
 	background-color:#599bb3;
@@ -985,17 +985,67 @@ a.myButton {
 	text-shadow:0px 1px 0px #3d768a; 
 	margin-bottom:15px;
 }
-a.myButton:hover {
+a.myButton1:hover {
 	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
 	background-color:#408c99;
 }
-a.myButton:active {
+a.myButton1:active {
 	position:relative;
 	top:1px;
 }
-a.space {
-    margin-bottom:15px;
+
+a.myButton2 {
+	box-shadow: 0px 7px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	border:6px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 55px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a; 
+	margin-bottom:15px;
 }
+a.myButton2:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+a.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+a.myButton3 {
+	box-shadow: 0px 7px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	border:6px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 58px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a; 
+	margin-bottom:15px;
+}
+a.myButton3:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+a.myButton3:active {
+	position:relative;
+	top:1px;
+}
+
 
 .about .author-name {
   font-family: 'PT Serif', serif;
