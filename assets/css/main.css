@@ -1000,6 +1000,82 @@ table tfoot td {
   margin: 0 0 10px;
 }
 
+
+a.myButton1 {
+	box-shadow: 0px 7px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 57px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a; 
+	margin-bottom:5px;
+}
+a.myButton1:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+a.myButton1:active {
+	position:relative;
+	top:1px;
+}
+
+a.myButton2 {
+	box-shadow: 0px 7px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 55px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a; 
+	margin-bottom:5px;
+}
+a.myButton2:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+a.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+a.myButton3 {
+	box-shadow: 0px 7px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 62px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a; 
+	margin-bottom:1px;
+}
+a.myButton3:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+a.myButton3:active {
+	position:relative;
+	top:1px;
+}
+
 .content-box {
   padding: 20px;
   padding-left: 260px;
