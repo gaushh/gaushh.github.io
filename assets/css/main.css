@@ -983,6 +983,7 @@ a.myButton {
 	padding:5px 55px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #3d768a; 
+	margin-bottom:15px;
 }
 a.myButton:hover {
 	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
