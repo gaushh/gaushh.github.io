@@ -973,7 +973,6 @@ a.myButton1 {
 	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
 	background-color:#599bb3;
 	border-radius:8px;
-	border:6px solid #ffffff;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -999,7 +998,6 @@ a.myButton2 {
 	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
 	background-color:#599bb3;
 	border-radius:8px;
-	border:6px solid #ffffff;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -1025,7 +1023,6 @@ a.myButton3 {
 	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
 	background-color:#599bb3;
 	border-radius:8px;
-	border:6px solid #ffffff;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
