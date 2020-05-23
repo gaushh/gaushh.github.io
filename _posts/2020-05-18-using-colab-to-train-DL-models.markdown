@@ -24,6 +24,12 @@ with open("/content/drive/My Drive/News_Files/news.txt", "rb") as infile:
 ```
 
 ### Tip 2 : Using free GPU
+Colab allots one of NVIDIA K80, P100, P4, T4, and V100 GPUs to the user on a random basis. These GPUs are quite costly if brought separately. 
+- NVIDIA K80 - ~5k USD
+- NVIDIA P100 - ~6-9k USD
+- NVIDIA P4 - ~2.5k USD
+- NVIDIA T4 - ~2k USD
+- NVIDIA V100 - ~8k USD
 To start using the free GPU:
 > Menu bar --> Runtime --> Change Runtime Type --> GPU
 ![I and My friends]({{site.baseurl}}/assets/img/change_runtime_type_2.jpg)
