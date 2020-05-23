@@ -34,6 +34,11 @@ To start using the free GPU:
 > Menu bar --> Runtime --> Change Runtime Type --> GPU
 ![I and My friends]({{site.baseurl}}/assets/img/change_runtime_type_2.jpg)
 
+To check the model of the GPU alotted, use command
+```
+!nvidia-smi
+```
+
 It is important to keep in mind that Google provides limited use of free GPU service. So, use this option only when training and testing the models, not while writing code. 
 
 **Pro Tip -** Some of the models I've trained took significantly longer than than the upper limit of the capacity. I tend to save the checkpoints in the drive regularly (in PyTorch using 'torch.save') after a particular number of iterations. After the capacity of the google account I'm using gets drained, I download the ipython notebook and reupload it to another colab account in incognito. Finally, mount it on the original drive account in which the saved model was stored and load the saved checkpoint file. This will resume the training process from the checkpoint. All in all, you can use the GPU provided by colab forever given you have access to a sufficient number of google accounts. 
