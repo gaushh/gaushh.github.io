@@ -15,12 +15,13 @@ We built this project as a part of a competetion in our prefinal year and bagged
 - The proposed robot is to be fabricated with 6 wheels which are controlled by BLDC (Brushless DC) motors and coded using Arduino UNO.
 
 ### MECHANICAL STRUCTURE
-- Omni-terrain manoeuvrability.
+- Omni-terrain manoeuvrability - Inspiration was taken by Martian rover Curiosity, which establishes the 'rocker-bogie suspension system. The primary mechanical feature of the robot is its true-blue allwheel-drive capability, which is achieved by 6 motors powering the six wheels of the robot.
 - Rocker- bogie suspension.
 - Chassis split in two parts, "front rocker" and "rear bogie".
 - 6 Wheeled Chassis.
 - Entire frame, axles designed using PVC pipes.
 - Brushless DC motor, 6mm shaft diameter, 30 RPM.
+![Rocker Bogie mechanism](Rocker_bogie.gif)
 
 ### Hardware Architecture
 Three possible modes of Communication
@@ -30,3 +31,5 @@ Three possible modes of Communication
 - 12 v, 6 mm shaft diameter  brushless dc motor.
 - Wheels  125 mm, width of 60 mm, shaft diameter of 6mm.
 
+### Software Architecture
+Software architecture of our robot was designed keeping in mind it’s varied applications and to successfully implement it into the hardware part. Heart of the software  architecture lies in it’s processor which in our case is arduino uno which supports the following applications
