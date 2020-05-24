@@ -21,7 +21,7 @@ We built this project as a part of a competetion in our prefinal year and bagged
 - 6 Wheeled Chassis.
 - Entire frame, axles designed using PVC pipes.
 - Brushless DC motor, 6mm shaft diameter, 30 RPM.
-![Rocker Bogie mechanism](Rocker_bogie.gif)
+![Rocker Bogie mechanism]({{site.baseurl}}/assets/img/Rocker_bogie.gif)
 
 ### Hardware Architecture
 Three possible modes of Communication
