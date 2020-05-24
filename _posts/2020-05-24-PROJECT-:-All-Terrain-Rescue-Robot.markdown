@@ -3,7 +3,7 @@ layout: post
 title: PROJECT - All Terrain Rescue Robot
 date: 2020-05-24 00:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: rakshak1.jpg # Add image post (optional)
+img: rakshak1.jpeg # Add image post (optional)
 tags: [Productivity, Software] # add tag
 ---
 
