@@ -1,4 +1,4 @@
-# David Hamp-Gonsalves
+# Gaurav Sharma
 ## Senior Developer & Code Enthusiast
 
 > [davidhampgonsalves.com](http://www.davidhampgonsalves.com)
