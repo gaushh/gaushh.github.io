@@ -1,6 +1,3 @@
----
-title : profile
----
 # David Hamp-Gonsalves
 ## Senior Developer & Code Enthusiast
 
