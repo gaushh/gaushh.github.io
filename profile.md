@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: post
 title : profile
 ---
 Hello World
