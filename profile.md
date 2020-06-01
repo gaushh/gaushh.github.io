@@ -1,4 +1,4 @@
-# Gaurav Sharma
+<-- # Gaurav Sharma
 ## Senior Developer & Code Enthusiast
 
 > [davidhampgonsalves.com](http://www.davidhampgonsalves.com)
@@ -86,4 +86,4 @@
 
 **Bachelor of Technology (Software Development)** __2003 to 2007__
 	Seneca College of Applied Arts and Technology (Seneca@York), Toronto, Ontario
-
+-->
