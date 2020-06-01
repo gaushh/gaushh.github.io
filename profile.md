@@ -1,4 +1,5 @@
 ---
-layout: default
+layout: main
+title : profile
 ---
 Hello World
