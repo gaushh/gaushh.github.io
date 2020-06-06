@@ -14,7 +14,7 @@ My first instinct was to look for State Of The Art (SOTA) techniques, understand
 
 When I started looking for tutorials, I realized that Faster RCNN was the most in-use architecture. I figured that must be because it is SOTA. To my utter surprise that was not the case. In reality, Faster RCNN was hard to find in the pecking order. That got me wondering why it is still used so widely if it is not SOTA (or anywhere near it) anymore.
 
-![I and My friends]({{site.baseurl}}/assets/img/objdet_comparison.jpeg)
+# ![I and My friends]({{site.baseurl}}/assets/img/objdet_comparison.jpeg)
 
 On doing some research and discussing the issue with peers I realised that there are many factors contributing to it.
 
