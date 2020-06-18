@@ -1,13 +1,52 @@
 ---
 layout: post
-title: Object Detection Is SOTA really the best?
-date: 2017-09-10 00:00:00 +0300
+title: Production Planning GUI
+date: 2020-04-08 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: mac.jpg # Add image post (optional)
-tags: [Js, Conference] # add tag
+fig-caption: # Add figcaption (optional)
+tags: [Colab, GPU,]
 ---
-Jean shorts organic cornhole, gochujang post-ironic chicharrones authentic flexitarian viral PBR&B forage wolf. Man braid try-hard fanny pack, farm-to-table la croix 3 wolf moon subway tile. Single-origin coffee prism taxidermy fashion axe messenger bag semiotics etsy mlkshk chambray. Marfa lumbersexual meditation celiac. Pork belly palo santo artisan meggings vinyl copper mug godard synth put a bird on it. Cloud bread pop-up quinoa, raw denim meditation 8-bit slow-carb. Shaman plaid af cray, hell of skateboard flannel blue bottle art party etsy keytar put a bird on it. Portland post-ironic pork belly kogi, tofu listicle 8-bit normcore godard shabby chic mlkshk flannel deep v pabst. Pork belly kinfolk fingerstache lo-fi raclette. Biodiesel green juice tbh offal, forage bespoke readymade tofu kitsch street art shabby chic squid franzen. Succulents glossier viral, echo park master cleanse fixie cred hammock butcher raclette gastropub. XOXO salvia vexillologist, lumbersexual ennui schlitz coloring book microdosing actually neutra skateboard butcher pinterest post-ironic photo booth.
+Google Colaboratory or simply "colab" is a Jupyter-Esque environment which provides a platform for writing and executing python code in a browser. Colab notebook environment runs on cloud and the ipython notebooks are stored in google drive. The availability of free GPU's and easy sharing is what really distinguishes any of its contemporaries.
 
-Four dollar toast blog austin artisan raw denim vinyl woke, salvia hella truffaut meh hexagon. Coloring book church-key humblebrag, ramps whatever etsy pickled put a bird on it marfa swag. Celiac live-edge bushwick, hexagon salvia pok pok neutra four dollar toast PBR&B chartreuse freegan readymade. Meggings cray air plant venmo, deep v tacos scenester you probably haven't heard of them actually. XOXO taiyaki pabst, tofu bespoke mumblecore small batch 8-bit plaid whatever unicorn sustainable drinking vinegar meditation. Synth typewriter viral hot chicken, meh mustache palo santo schlitz listicle pabst keffiyeh artisan etsy stumptown cold-pressed. Occupy locavore cray irony. Chambray whatever vaporware keffiyeh heirloom vice. Single-origin coffee neutra iPhone lyft. Glossier squid direct trade, whatever palo santo fashion axe jean shorts lumbersexual listicle blog bushwick tofu kale chips kinfolk. Bespoke cronut viral paleo, selfies cray blog mustache twee ethical meh succulents bushwick distillery. Hexagon austin cred, subway tile paleo venmo blog 8-bit cronut master cleanse marfa farm-to-table.
 
-Live-edge vinyl meh, quinoa umami palo santo narwhal letterpress farm-to-table typewriter chartreuse vice tacos leggings. Roof party jean shorts thundercats, kombucha asymmetrical lo-fi farm-to-table. Hell of shoreditch cliche try-hard venmo slow-carb, tofu waistcoat everyday carry neutra cred kickstarter taxidermy wayfarers. Direct trade banh mi pug skateboard banjo edison bulb. Intelligentsia cliche quinoa synth umami. Trust fund four loko hoodie paleo cray tote bag slow-carb ennui. Williamsburg food truck intelligentsia trust fund. Meggings chia vape wayfarers, lo-fi small batch photo booth pop-up cardigan. Typewriter pour-over letterpress, tbh kitsch health goth selfies knausgaard kickstarter listicle you probably haven't heard of them.
+![I and My friends]({{site.baseurl}}/assets/img/pp_help_doc.pdf)
+
+To check the model of the GPU alotted, use command
+```
+!nvidia-smi
+```
+
+It is important to keep in mind that Google provides limited use of free GPU service. So, use this option only when training and testing the models, not while writing code. 
+
+**Pro Tip -** Some of the models I've trained took significantly longer than than the upper limit of the capacity. I tend to save the checkpoints in the drive regularly (in PyTorch using 'torch.save') after a particular number of iterations. After the capacity of the google account I'm using gets drained, I download the ipython notebook and reupload it to another colab account in incognito. Finally, mount it on the original drive account in which the saved model was stored and load the saved checkpoint file. This will resume the training process from the checkpoint. All in all, you can use the GPU provided by colab forever given you have access to a sufficient number of google accounts. 
+
+### Tip 3 : Installing libraries/modules in colab
+All major libraries/modules like PyTorch, TensorFlow, Fastai, OpenCV etc. are preinstalled in pytorch. If you wish to use a custom library which is not already there in colab or to use a different version of the preinstalled module, you can use !pip install or !apt-get install.
+
+~~~
+ !pip install -q matplotlib-venn 
+ !pip install tensorflow==1.12.0     #Downgrades the tensorflow version.
+~~~
+"!" prompts the notebook cell to treat the code as a command line script. 
+
+### Tip 4 : Increasing the maximum available RAM in colab
+Colab provides 12.5 GB RAM by default. At times the size of the dataset is too big to be accommodated in that amount of RAM. If the amount of RAM to be utilized is less than that is available, the session crashes. To increase the amount of available RAM, the user needs to just crash the session once. This automatically results in the allocation of 25.51 GB RAM. 
+Running the following code in colab should result in the crashing of the session.
+```
+d=[]
+while(1):
+  d.append('1')
+```
+The user can't go beyond the 25.51 GB RAM limit in a session, so there are a few tricks that can help in limiting RAM usage.
+* Reduce the batch size. 
+* Choose memory-efficient options while processing and storing data. eg. Using tuples instead of lists to store data.
+* Delete temporary variables.
+* Divide the data to be trained upon into multiple files and upload just a single file at a time.
+> ![I and My friends]({{site.baseurl}}/assets/img/split_files.jpg)
+
+### Tip 5 : Sharing ipynb files via colab.
+Colab provides easy sharing of files to others via email or via a sharable link,
+It even provides the functionality of pushing files to a Github repository in just 1-2 clicks. 
+These options can come handy while working in a group project as the owner can manage who can view and edit the files.
+
