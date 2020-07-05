@@ -2,7 +2,7 @@
 layout: post
 title: Object Detection - Is SOTA really the best?
 date: 2020-06-07 00:00:00 +0300
-description: It is not always the best to yse SOTA algorithms. In this post I explored the reasoning behind it.
+description: It is not always the best to use SOTA algorithms. In this post I explored the reasoning behind it.
 img: objdet.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Productivity, Workflow] # add tag
