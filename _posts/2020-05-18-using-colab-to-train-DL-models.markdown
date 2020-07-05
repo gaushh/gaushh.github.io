@@ -2,7 +2,7 @@
 layout: post
 title: Using Colab for training Deep Learning Models
 date: 2020-05-18 13:32:20 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: Google Colaboratory or simply "colab" is a Jupyter-Esque environment which provides a platform for writing and executing python code in a browser.
 img: colab_logo2.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Colab, GPU,]
