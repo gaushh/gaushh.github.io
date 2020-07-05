@@ -2,7 +2,7 @@
 layout: post
 title: Object Detection - Is SOTA really the best?
 date: 2020-06-07 00:00:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: It is not always the best to yse SOTA algorithms. In this post I explored the reasoning behind it.
 img: objdet.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Productivity, Workflow] # add tag
