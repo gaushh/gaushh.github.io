@@ -16,7 +16,7 @@ Petrochemical industries are an integral part of the manufacturing sector and ar
 
 ## Expanation
 ![Screenshot of GUI]({{site.baseurl}}/assets/img/pp_architecture.jpg)
-<img align="right" src="{{site.baseurl}}/assets/img/pp_architecture.jpg">
+<img align="left" src="{{site.baseurl}}/assets/img/pp_plot.jpg">
 
 
 #### we want to determine an assignment of reviewers to proposals on the panel so as to optimize the sum of the preferences for each reviewers assigned proposals.
