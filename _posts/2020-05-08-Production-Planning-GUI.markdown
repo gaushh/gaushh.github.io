@@ -12,12 +12,7 @@ tags: [Colab, GPU]
 
 # Production Planning
 ## Introduction
-- Petrochemical industries are an integral part of the manufacturing sector and are estimated to be worth more than  $758 billion*
-- These industries are a major source of revenue for countries that have a rich source of natural gas and crude oil which are the feedstock for the petrochemical industries.
-- The complex nature of the production planning industries requires the systemic optimization of a large number of factors so as to be competitive in a globalized environment.
-- Increasing competition from affordable greener sources has emphasized the need for  production planning in the petrochemical industry.
-- The structure of the petrochemical networks is extremely complex which involves various chemicals and processes to convert feedstock to products. 
-- Various routes are available for producing chemicals. If one production route is prohibitively expensive or does not work, production planning helps us switch to different route.
+Petrochemical industries are an integral part of the manufacturing sector and are estimated to be worth more than  $758 billion*. These industries are a major source of revenue for countries that have a rich source of natural gas and crude oil which are the feedstock for the petrochemical industries. The complex nature of the production planning industries requires the systemic optimization of a large number of factors so as to be competitive in a globalized environment. Increasing competition from affordable greener sources has emphasized the need for  production planning in the petrochemical industry. The structure of the petrochemical networks is extremely complex which involves various chemicals and processes to convert feedstock to products. Various routes are available for producing chemicals. If one production route is prohibitively expensive or does not work, production planning helps us switch to different route.
 
 ## Expanation
 ![Screenshot of GUI]({{site.baseurl}}/assets/img/pp_architecture.jpg)
