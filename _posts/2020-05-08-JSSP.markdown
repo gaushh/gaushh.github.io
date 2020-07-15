@@ -12,12 +12,13 @@ tags: [Colab, GPU]
 
 # Job Shop Scheduling Problem GUI
 ## Introduction
+<img align="right" src="{{site.baseurl}}/assets/img/jssp1.jpg">
 - The design of optimal job schedules on parallel machines with finite time, plays a crucial role in manufacturing and production facilities
 - Job shop scheduling requires the allocation of tasks to available resources while satisfying various time, supply and demand constraints
 - Combinatorial optimization problem which utilizes binary variables when solved with mathematical programming techniques.
 - Moderate increase in orders and machines scales the problem dimension exponentially
 - Simple scheduling problem with 3 Jobs and 2 machines
-<img align="right" src="{{site.baseurl}}/assets/img/jssp1.jpg">
+
 
 ## Architecture
 <!-- [Screenshot of GUI]({{site.baseurl}}/assets/img/pp_architecture.jpg) -->
