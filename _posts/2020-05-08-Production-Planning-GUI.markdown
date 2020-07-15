@@ -29,11 +29,11 @@ Petrochemical industries are an integral part of the manufacturing sector and ar
 <img src="{{site.baseurl}}/assets/img/pp1.jpg">
 .
 .
-.
+sdv.skdffjilrjgioja
 .
 <img width="300" src="{{site.baseurl}}/assets/img/pp2s.jpg">
 .
-.
+lhdckherkghk
 .
 .
 
