@@ -13,27 +13,9 @@ tags: [Colab, GPU]
 # Job Shop Scheduling Problem GUI
 ## Introduction
 <img align="left" src="{{site.baseurl}}/assets/img/jssp1.jpg">
-- The design of optimal job schedules on parallel machines with finite time, plays a crucial role in manufacturing and production facilities
-- Job shop scheduling requires the allocation of tasks to available resources while satisfying various time, supply and demand constraints
-- Combinatorial optimization problem which utilizes binary variables when solved with mathematical programming techniques.
-- Moderate increase in orders and machines scales the problem dimension exponentially
-- Simple scheduling problem with 3 Jobs and 2 machines
+<img align="left" src="{{site.baseurl}}/assets/img/jssp2.png">
+<img align="left" src="{{site.baseurl}}/assets/img/jssp3.jpg">
+<img align="left" src="{{site.baseurl}}/assets/img/jssp4.jpg">
+<img align="left" src="{{site.baseurl}}/assets/img/jssp5.jpg">
 
 
-## Architecture
-<!-- [Screenshot of GUI]({{site.baseurl}}/assets/img/pp_architecture.jpg) -->
-<img align="left" width="570" src="{{site.baseurl}}/assets/img/pp_architecture.jpg">
-- T type of raw materials, J processes, I different products.
-- A product can be produced by more than one process.
-- Processes can have different production capacity levels
-- No production is possible from a process below the minimum capacity level or greater than the maximum capacity level
-- Cost between capacity levels is a linear function of the quantity that is produced
-<img align="right" width="360" src="{{site.baseurl}}/assets/img/pp_plot.jpg">
-
-.
-<!-- [Screenshot of GUI]({{site.baseurl}}/assets/img/pp1.png) -->
-<img src="{{site.baseurl}}/assets/img/pp1.jpg">
-.
-<img src="{{site.baseurl}}/assets/img/pp2s.jpg">
-.
-<img src="{{site.baseurl}}/assets/img/pp3.jpg">
