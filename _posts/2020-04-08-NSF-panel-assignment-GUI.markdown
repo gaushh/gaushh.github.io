@@ -40,7 +40,7 @@ The user can set the maximum run time, which if exceeded by the intlinprogleads 
 
 There are three push buttons, namely Start, Reset and Stop. The Start button triggers the program to run, whereas the Reset button is used to clear all the data input by the user. The Stop button helps the user to terminate the execution of the program. While the program is executing, an un-editable textbox appears on the screen stating the status of execution. This textbox also displays the exit condition of the program.
 
-![Screenshot of GUI]({{site.baseurl}}/assets/img/gui_ss.JPG)
+![Screenshot of GUI]({{site.baseurl}}/assets/img/nsfresults_ss.jpg)
 
 We have provided the open source code for the gui [here](https://github.com/gaushh/NSF-Panel-Assignment).
 To use the GUI, clone or download the repository and run NSFGUI.m on Matlab 2018.
