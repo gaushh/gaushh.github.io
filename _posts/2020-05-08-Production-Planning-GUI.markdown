@@ -24,7 +24,8 @@ Petrochemical industries are an integral part of the manufacturing sector and ar
 - Cost between capacity levels is a linear function of the quantity that is produced
 <img align="right" width="360" src="{{site.baseurl}}/assets/img/pp_plot.jpg">
 
-  
+.
+
 ## Effect of by-products in process industries.
 - By-products are secondary products whose formation takes place during the   synthesis of required products using various processes.
 - For instance plastics, paints, rubber, fertilizers, detergents, dyes, textiles and solvents are the common by-products which form as a result of production in petrochemical industries.
