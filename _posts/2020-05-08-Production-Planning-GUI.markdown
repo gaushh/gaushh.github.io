@@ -16,7 +16,7 @@ Petrochemical industries are an integral part of the manufacturing sector and ar
 
 ## Architecture
 <!-- [Screenshot of GUI]({{site.baseurl}}/assets/img/pp_architecture.jpg) -->
-<img align="left" width="600" src="{{site.baseurl}}/assets/img/pp_architecture.jpg">
+<img align="left" width="580" src="{{site.baseurl}}/assets/img/pp_architecture.jpg">
 - T type of raw materials, J processes, I different products.
 - A product can be produced by more than one process.
 - Processes can have different production capacity levels
