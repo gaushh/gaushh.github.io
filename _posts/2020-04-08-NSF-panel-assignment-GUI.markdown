@@ -3,7 +3,7 @@ layout: post
 title: NSF Panel Assignment GUI
 date: 2020-04-08 00:00:00 +0300
 description: A GUI developed to efficiently analyze the inputs, solve the problem and also provide a detailed analysis of the solution without requiring any in-depth knowledge of the solution procedure or optimization solvers.
-img: objdet.jpg # Add image post (optional)
+img: nsfgui_ss.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Colab, GPU]
 ---
