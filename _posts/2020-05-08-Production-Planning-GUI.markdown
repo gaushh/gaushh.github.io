@@ -35,5 +35,9 @@ sdv.skdffjilrjgioja
 .
 lhdckherkghk
 .
-.
+- T type of raw materials, J processes, I different products.
+- A product can be produced by more than one process.
+- Processes can have different production capacity levels
+- No production is possible from a process below the minimum capacity level or greater than the maximum capacity level
+- Cost between capacity levels is a linear function of the quantity that is produced 
 
