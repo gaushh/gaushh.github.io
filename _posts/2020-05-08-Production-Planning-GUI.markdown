@@ -22,7 +22,7 @@ Petrochemical industries are an integral part of the manufacturing sector and ar
 - Processes can have different production capacity levels
 - No production is possible from a process below the minimum capacity level or greater than the maximum capacity level
 - Cost between capacity levels is a linear function of the quantity that is produced
-<img align="right" width="350" src="{{site.baseurl}}/assets/img/pp_plot.jpg">
+<img align="right" width="330" src="{{site.baseurl}}/assets/img/pp_plot.jpg">
 
 ## Effect of by-products in process industries.
 - By-products are secondary products whose formation takes place during the   synthesis of required products using various processes.
